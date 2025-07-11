@@ -213,6 +213,7 @@ main {
   .project {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    text-align: left;
   }
   /* flip img back to its natural position like in html */
   .project img {
@@ -221,12 +222,9 @@ main {
   .project ul {
     justify-content: flex-start;
   }
-  .bottom-article {
+  .other-projects-courses {
     text-align: left;
     background-color: var(--pale-beige);
-  }
-  footer {
-    text-align: left;
   }
   .skill-tool-icons {
     text-align: left;
@@ -234,5 +232,8 @@ main {
   .other-projects-courses {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .content-titles {
+    text-align: left;
   }
 }
